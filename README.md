@@ -56,3 +56,4 @@ let grid= document.querySelector("#grid"); let squares = Array.from(document.que
 
 let count = 0; let width = 10;
 
+let grid= document.querySelector("#grid"); let squares = Array.from(document.querySelectorAll("#grid div")); let score = document.getElementById('score'); let playPauseBtn = document.getElementById("strt-btn"); let lefBtn = document.getElementById("left") let downBtn = document.getElementById("down") let rightBtn
