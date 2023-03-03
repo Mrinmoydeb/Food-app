@@ -37,7 +37,7 @@ Array.from(document.querySelectorAll("#grid div")); let score = document.getElem
 let count = 0; let width = 10;
 
 const lshape = [ [1, width+1, width2+1, width2+2], [0, 1, 2, width+2], [1, width+1, width2+1, width2], [width, width2, width2+1, width*2+2] ]
-
+let grid= document.querySelector("#grid"); let squares = Array.from(document.querySelectorAll("#grid div")); let score = document.getElementById('score'); let playPauseBtn = document.getElementById("strt-btn"); let lefBtn = document.getElementById("left") let downBtn = document.getElementById("down") let rightBtn = document.getElementById("right") let
 const zshape = [ [1, 2, width+3 , width+2], [0, width, width+1, width2+1], [1, 2, width, width+1], [0, width, width+1, width2+1], ]
 
 const tshape = [ [1, width,width+1,width+2], [1, width+1, width+2, width2+1], [0, 1, 2,width+1 ], [1, width, width+1, width2+1] ]
